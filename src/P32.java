@@ -2,6 +2,7 @@
 public class P32 {
     
     public static void main(String... args) {
+    	System.out.println(new Integer(1) + new Integer(2)); //auto-unboxing, primitives' addition.
     	System.out.println(new Integer(1) & new Integer(0)); //auto-unboxing, primitives' and.
         System.out.println(new Integer(1) > new Integer(0)); //auto-unboxing, primitives' comparison.
         System.out.println(new Integer(0) == new Integer(0)); //won't auto-unboxing, just object comparison.
